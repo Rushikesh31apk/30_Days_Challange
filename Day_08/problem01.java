@@ -18,7 +18,7 @@ public class problem01 {
         System.out.println();
 
         //Third approch
-        StringBuilder sb = new StringBuilder(str);
+        StringBuffer sb = new StringBuffer(str);
         System.out.println(sb.reverse());
 
         //Fourth approch
