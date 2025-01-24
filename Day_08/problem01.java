@@ -1,4 +1,4 @@
-// reverce string in java
+// Reverce string in java
 public class problem01 {
     public static void main(String[] args) {
         String str = "Hello";
@@ -15,6 +15,15 @@ public class problem01 {
         for(int i=ch.length-1;i>=0;i--){
             System.out.print(ch[i]);
         }
+        System.out.println();
+
+        //Third approch
+        StringBuilder sb = new StringBuilder(str);
+        System.out.println(sb.reverse());
+
+        //Fourth approch
+        String revStr = new StringBuilder(str).reverse().toString();
+        System.out.println(revStr);
 
         
     }
