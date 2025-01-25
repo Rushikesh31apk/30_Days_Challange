@@ -1,8 +1,5 @@
-package Recursion;
-
 import java.util.Scanner;
-//factorial how many num in case 0
-public class impTralingZeroInFact {
+class impTralingZeroInFact {
     public static int checkTrailling(int n){
         int rev=0;
         for(int i=5;i<=n;i=i*5){

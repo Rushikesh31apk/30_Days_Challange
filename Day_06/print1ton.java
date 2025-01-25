@@ -1,4 +1,4 @@
-package Recursion;
+
 
 public class print1ton {
     
@@ -6,7 +6,7 @@ public class print1ton {
         if(cnt==n){
             return;
         }
-        System.out.println(cnt);
+        System.out.print(cnt);
         cnt=cnt+1;
         asending(cnt,n); 
     }

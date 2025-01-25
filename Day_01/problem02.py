@@ -4,3 +4,8 @@ def pattern02(n):
             print("* ",end="")
         print()
 pattern02(4)
+
+# * 
+# * *
+# * * *
+# * * * *

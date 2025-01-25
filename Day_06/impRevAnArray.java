@@ -1,6 +1,4 @@
-package Recursion;
-
-public class impRevAnArray {
+class impRevAnArray {
   
     public static void rev(int i,int j,int arr[]){
         if(i>=j) return;
