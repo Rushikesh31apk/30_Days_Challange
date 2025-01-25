@@ -9,6 +9,7 @@ class problem01{
             boolean unique=true;
             for(int j=0;j<str.length();j++){
                 if(i != j && str.charAt(i) == str.charAt(j)){
+                    
                     unique=false;
                     break;
                 }
