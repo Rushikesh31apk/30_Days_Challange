@@ -4,12 +4,11 @@ class problem01{
 
         //First apporch without using collection
         String str= "shikesh";
-        System.out.print("Unique characters in string:");
+        System.out.print("First Unique characters in string:");
         for(int i=0;i<str.length();i++){
             boolean unique=true;
             for(int j=0;j<str.length();j++){
                 if(i != j && str.charAt(i) == str.charAt(j)){
-                    
                     unique=false;
                     break;
                 }
@@ -22,7 +21,7 @@ class problem01{
         System.out.println("\n");
         //Second approach using set
         String str1= "shikesh";
-         Map<Character, Integer> map = new LinkedHashMap<>();
+        Map<Character, Integer> map = new LinkedHashMap<>();
         
         // Count the frequency of each character
         for (int i = 0; i < str1.length(); i++) {
