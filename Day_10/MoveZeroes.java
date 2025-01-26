@@ -14,7 +14,7 @@ class MoveZeroes{
         }
     }
     public static void main(String[] args) {
-        int[] arr = {0, 1, 0, 3, 12,11};
+        int[] arr = {0, 1, 0, 3, 12,11,13,0,12};
         moveZeroes(arr);
         System.err.println("All zeroes moved to the end");
         for (int i = 0; i < arr.length; i++) {
