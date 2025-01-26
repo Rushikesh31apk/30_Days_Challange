@@ -1,9 +1,9 @@
-package Recursion;
 
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class roateArrayNtimes {
+    @SuppressWarnings("ManualArrayToCollectionCopy")
     static void leftRotate(int arr[], int n, int d) {
 
         if (n == 0) return;
@@ -17,7 +17,7 @@ public class roateArrayNtimes {
 
         //step 1: Copying first d elements
         // in the temporary array:
-        for (int i = 0; i < d; i++) {
+        for(int i = 0; i < d; i++) {
             temp[i] = arr[i];
         }
 
@@ -35,11 +35,14 @@ public class roateArrayNtimes {
     }
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
+        System.err.println("Enter the size of the array");
         int n=sc.nextInt();
+        System.err.println("Enter the data of the array");
        int arr[]=new int[n];
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();    
         }
+        System.err.println("Enter the number of times you want to rotate the array");
         int k=sc.nextInt();
         leftRotate(arr,n,k);
         for(int i=0;i<n;i++){
