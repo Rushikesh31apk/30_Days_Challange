@@ -16,7 +16,7 @@ public class HashmapDemo {
         hashMap.putAll(fruits);
 
         // clear()
-        // hashMap.clear();
+         hashMap.clear();
 
         // containsKey(Object key)
         System.out.println(hashMap.containsKey("1")); // true
