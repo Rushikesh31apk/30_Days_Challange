@@ -13,7 +13,7 @@ class problem03 {
         StringBuilder s2 = new StringBuilder();
         for (int i=0;i< s.length();i++){
             char ch= s.charAt(i);
-            int idx= s.indexOf(ch,i+1);
+            int idx= s.indexOf(ch,i+1); //check whether they present or not
             if(idx==-1){
                 s2.append(ch);
             }

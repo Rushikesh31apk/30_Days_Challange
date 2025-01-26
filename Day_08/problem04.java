@@ -1,7 +1,7 @@
 import java.util.*;
 class problem04{
     public static void main(String[] args) {
-        // sort a string without using inbuilt method
+        //sort a string without using inbuilt method
         String str = "rushikesh";
         char[] charArray = str.toCharArray();
         for(int i=0;i<charArray.length;i++){
