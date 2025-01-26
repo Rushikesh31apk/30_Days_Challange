@@ -1,10 +1,8 @@
-package ColeectionInJava;
+
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.ListIterator;
-import java.util.Objects;
 
 public class ArrayListDemo {
     public static void main(String[] args) {
@@ -28,7 +26,7 @@ public class ArrayListDemo {
         // arrayList.clear();
 
         // contains(Object o)
-        System.out.println(arrayList.contains("Apple")); // true
+        System.out.print(arrayList.contains("Apple")); // true
 
         // get(int index)
         System.out.println(arrayList.get(0)); // Apple
@@ -45,7 +43,7 @@ public class ArrayListDemo {
         // listIterator()
         ListIterator<String> listIterator = arrayList.listIterator();
         while (listIterator.hasNext()) {
-            System.out.println(listIterator.next());
+            System.out.print(listIterator.next());
         }
 
         // listIterator(int index)
