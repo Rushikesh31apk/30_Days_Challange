@@ -1,7 +1,6 @@
 
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class secondlarge {
     public static int sl(List<Integer> arr) {
@@ -49,7 +48,7 @@ public class secondlarge {
         arr.add(1);
         arr.add(5);
         arr.add(7);
-        List<Integer> two = new ArrayList<>();
+        List<Integer> two = new ArrayList();
         two = slarge(arr);
         for (int a : two) {
             System.out.println(a);

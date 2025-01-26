@@ -1,4 +1,4 @@
-package Recursion;
+
 import java.util.*;
 public class sumOfN {
     public static void sum(int i, int sum){
