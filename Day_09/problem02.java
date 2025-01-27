@@ -1,6 +1,7 @@
 class problem02{
     public static void main(String[] args) {
-        String str = "java code";
+        // rev each word in a sentence
+        String str = "java code by rushikesh narawade";
         String []words= str.split(" ");
         String revWords="";
         for( String word : words) {
