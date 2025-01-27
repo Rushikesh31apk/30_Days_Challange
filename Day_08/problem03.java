@@ -13,7 +13,7 @@ class problem03 {
         StringBuilder s2 = new StringBuilder();
         for (int i=0;i< s.length();i++){
             char ch= s.charAt(i);
-            int idx= s.indexOf(ch,i+1); //check whether they present or not
+            int idx= s.indexOf(ch,i+1); //check whether they present or not in i+1 to n
             if(idx==-1){
                 s2.append(ch);
             }
@@ -23,7 +23,7 @@ class problem03 {
         //Third approch
         char []dum= s.toCharArray();
         StringBuilder s3 = new StringBuilder();
-        for (int i=0;i< s.length();i++){
+        for(int i=0;i< s.length();i++){
             boolean seen=false;
             for (int j=i+1;j< s.length();j++){
                 if(dum[i]==dum[j]){

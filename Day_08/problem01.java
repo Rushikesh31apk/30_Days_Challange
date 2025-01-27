@@ -12,10 +12,12 @@ public class problem01 {
         
         //Second approch
         char [] ch= str.toCharArray();
+        String r="";
         for(int i=ch.length-1;i>=0;i--){
+            r=r+ch[i];
             System.out.print(ch[i]);
         }
-        System.out.println();
+        System.out.println("\n i amd r: "+r);
 
         //Third approch
         StringBuffer sb = new StringBuffer(str);
