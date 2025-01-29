@@ -6,7 +6,7 @@ class MoveZeroes{
         for (int i = 0; i < n; i++) {
             if (nums[i] != 0) {
                 nums[count++] = nums[i];
-                }
+            }
         }
         //fill the rest of the array with zeroes
         while (count < n) {

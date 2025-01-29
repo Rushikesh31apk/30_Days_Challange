@@ -1,7 +1,7 @@
 class LargestEle{
     //find largest element in array
     public static int findLargest(int[] arr) {
-        int max = arr[0];
+        int max = Integer.MIN_VALUE;
         for(int a : arr) {
             if (a > max) {
                 max = a;
