@@ -1,4 +1,5 @@
 class ConsOnes{
+    //consecutive ones in arr
     public static int cnt(int arr[],int n){
         int count = 0;
         int temp=0;
