@@ -16,6 +16,14 @@ class  SortColors{
                 max = num;
             }
         }//this is comment
+        // int index = 0;
+        // for (int i = 0; i <= max; i++) {
+        //     while (count[i] > 0) {
+        //         nums[index++] = i;
+        //         count[i]--;
+        //         }
+        // }
+
 
         // 2,0,2,1,1,0,0,1,2,1
         int index = 0;
