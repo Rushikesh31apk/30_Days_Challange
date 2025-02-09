@@ -15,7 +15,8 @@ class  SortColors{
             if( max < num){
                 max = num;
             }
-        }
+        }//this is comment
+
         // 2,0,2,1,1,0,0,1,2,1
         int index = 0;
         for (int i = 0; i <= max; i++) {
