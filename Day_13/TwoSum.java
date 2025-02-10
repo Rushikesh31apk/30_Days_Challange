@@ -42,6 +42,8 @@ class TwoSum{
         System.out.println("Indices of the two numbers are " + result[0] + " and " + result[1]);
 
         System.out.println("");
+        int[] result1 = twoSum1(nums, target);
+        System.out.println("Indices of the two numbers are " + result1[0] + " and " + result1[1]);
 
     }
 
