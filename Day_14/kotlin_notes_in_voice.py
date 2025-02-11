@@ -64,5 +64,7 @@ suspend is used to define a coroutine function, whereas launch is used to start 
 
 End of Kotlin Interview Questions.
 """
+engine.setProperty('rate', 150)  # Slower speed for better comprehension
+engine.setProperty('volume', 0.8)  # Comfortable volume level
 engine.say(text)
 engine.runAndWait()
