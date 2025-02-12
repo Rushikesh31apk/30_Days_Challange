@@ -20,8 +20,7 @@ class problem03{
                 longestSubString=map.keySet().toString();
             }
         }
-        System.out.println(map.keySet().toString());
-        System.out.println("Longest unique character substring is: "+longestSubString);
+        System.out.println("Longest unique character substring is: "+ longestSubString);
        
     }
         
