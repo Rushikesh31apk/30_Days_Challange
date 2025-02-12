@@ -7,8 +7,7 @@ public class print1ton {
             return;
         }
         System.out.print(cnt);
-        cnt=cnt+1;
-        asending(cnt,n); 
+        asending(cnt+1,n); 
     }
     public static void main(String[] args) {
         asending(1,10);
