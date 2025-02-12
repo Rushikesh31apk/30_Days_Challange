@@ -1,7 +1,4 @@
-
-
 import java.util.*;
-
 public class secondlarge {
     public static int sl(List<Integer> arr) {
         int large = arr.get(0);
