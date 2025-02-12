@@ -26,7 +26,7 @@ public class ArrayListDemo {
         // arrayList.clear();
 
         // contains(Object o)
-        System.out.print(arrayList.contains("Apple")); // true
+        System.out.println(arrayList.contains("Apple")); // true
 
         // get(int index)
         System.out.println(arrayList.get(0)); // Apple

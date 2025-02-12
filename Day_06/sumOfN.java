@@ -15,5 +15,4 @@ public class sumOfN {
         sum(n,0);
 
     }
-    
 }
