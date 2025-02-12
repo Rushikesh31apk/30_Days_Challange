@@ -15,9 +15,9 @@ public class problem01 {
         String r="";
         for(int i=ch.length-1;i>=0;i--){
             r=r+ch[i];
-            System.out.print(ch[i]);
+            //System.out.print(ch[i]);
         }
-        System.out.println("\n i amd r: "+r);
+        System.out.println(r);
 
         //Third approch
         StringBuffer sb = new StringBuffer(str);

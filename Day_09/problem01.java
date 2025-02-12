@@ -28,7 +28,6 @@ class problem01{
             char ch = str1.charAt(i);
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
-
         System.out.println(map);
 
         // Find the first character with frequency 1
