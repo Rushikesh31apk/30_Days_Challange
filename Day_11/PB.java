@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 class PB{
     public static String shortenName(String name) {
-        String[] words = name.split("[-\s]");
-        StringBuilder shortName = new StringBuilder();
+        String[] words = name.split(" ");
+        String shortName = "";
         
         for (String word : words) {
             if (!word.isEmpty()) {
-                shortName.append(Character.toLowerCase(word.charAt(0)));
+                shortName += word.charAt(0);
             }
         }
         
-        return shortName.toString();
+        return shortName;
     }
     //I am Android Dev
 

@@ -14,7 +14,7 @@ class RemoveDub{
         return  j+1;
     }
     public static void main(String[] args) {
-        int[] arr = {1,1,2, 2, 3, 4,5,5};
+        int[] arr = {1,1,2,2,3,4,5,5};
         int n = arr.length;
         int n1=dublicate(arr, n);
         for(int i=0;i<n1;i++){
