@@ -7,7 +7,7 @@ Solve 150+ DSA problems in 30 days.
 Cover all major topics in Data Structures and Algorithms, ensuring a mix of easy, medium, and hard problems.
 
 ## Daily Target
-Solve more than 5 problems per day to stay on track.
+Solve more than 5 problems per day to stay on tracks.
 
 ## How to Contribute
 Feel free to fork the repository, submit a pull request, or suggest additional resources and topics to cover during the challenge!
