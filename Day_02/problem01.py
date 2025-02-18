@@ -8,5 +8,5 @@ def problem01(N):
         for j in range(i, 0, -1):
             print(j, end="")
         print()
-N = 9
+N = 3
 problem01(N)
