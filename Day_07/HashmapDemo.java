@@ -16,7 +16,7 @@ public class HashmapDemo {
         hashMap.putAll(fruits);
 
         // clear()
-         hashMap.clear();
+        // hashMap.clear();
 
         // containsKey(Object key)
         System.out.println(hashMap.containsKey("1")); // true
@@ -56,7 +56,7 @@ public class HashmapDemo {
         // putIfAbsent(K key, V value)
         hashMap.putIfAbsent("4", "Date");
 
-        // // toArray()
+        // toArray()
         // Object[] array = hashMap.toArray();
         // for (Object item : array) {
         //     System.out.println(item);
