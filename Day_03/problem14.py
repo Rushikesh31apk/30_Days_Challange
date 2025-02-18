@@ -4,13 +4,12 @@ def print_fibonacci_series(n):
         return
 
     a, b = 0, 1
-    print(a, end=" ")
-    if n > 1:
-        print(b, end=" ")
-    for _ in range(2, n):
-        nxt=a+b
-        a=b
-        b=nxt
-        print(b, end=" ")
+    nxt=0
+    for _ in range(0, n):
+        print(nxt, end=" ")# 0 1 1 2
+        nxt=a+b #0+1=1 1+0=1 1+1=2 2+1=3
+        b=a # 0 1 1 2
+        a=nxt # 1 1 2 3
+        
 
 print_fibonacci_series(10)

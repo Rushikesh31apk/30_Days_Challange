@@ -1,5 +1,5 @@
 def checkPalidrome(n):
-    if n ==0:
+    if n == 0:
         return True
     else:
         num=n
