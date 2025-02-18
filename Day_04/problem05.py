@@ -7,5 +7,5 @@ def quickSort(a):
         return quickSort(left) + middle + quickSort(right)
     return a
 
-a = [54, 3, 12, 52, 32, 19, 2, 23]
+a = [54, 3, 12, 52, 32, 19, 2, 23,0]
 print(quickSort(a))
