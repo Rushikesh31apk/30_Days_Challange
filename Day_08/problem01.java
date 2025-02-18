@@ -2,7 +2,7 @@
 public class problem01 {
     public static void main(String[] args) {
         String str = "Hello";
-        //First Approch
+        //First Approch use charAt
         int n = str.length();
         String rev = "";
         for(int i = n-1; i>=0; i--) {
@@ -10,7 +10,7 @@ public class problem01 {
         }
         System.out.println(rev);
         
-        //Second approch
+        //Second approch use array
         char [] ch= str.toCharArray();
         String r="";
         for(int i=ch.length-1;i>=0;i--){
@@ -19,11 +19,11 @@ public class problem01 {
         }
         System.out.println(r);
 
-        //Third approch
+        //Third approch use StringBuffer
         StringBuffer sb = new StringBuffer(str);
         System.out.println(sb.reverse());
 
-        //Fourth approch
+        //Fourth approch use StringBuilder
         String revStr = new StringBuilder(str).reverse().toString();
         System.out.println(revStr);
 

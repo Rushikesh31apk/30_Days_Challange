@@ -6,7 +6,7 @@ class problem02{
         String str1=str.replaceAll("[^a-zA-Z0-9]","");
         System.out.println(str1);
         //whitespace
-        String st="          Rushikesh              Kailas    Narawade";
+        String st="          Rushikesh_              Kailas_    Narawade";
         String st1=st.replaceAll(" ","");
         System.out.println(st1);
 
