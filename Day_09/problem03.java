@@ -6,7 +6,7 @@ class problem03{
         String str = "rushikesh";
         String longestSubString = null;
         int longestSubStringlen=0;
-        Map<Character, Integer> map=new LinkedHashMap<>();
+        Map<Character, Integer> map = new LinkedHashMap<>();
         char arr[]=str.toCharArray();
         for(int i=0;i<arr.length;i++){
             if(!map.containsKey(arr[i])){
@@ -20,6 +20,7 @@ class problem03{
                 longestSubString=map.keySet().toString();
             }
         }
+    
         System.out.println("Longest unique character substring is: "+ longestSubString);
        
     }
