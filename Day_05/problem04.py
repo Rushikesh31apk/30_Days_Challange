@@ -10,4 +10,4 @@ def findDublicates(list):
     return duplicates
 
 #test
-print(findDublicates([1,2,3,4,5,2,3,]))
+print(findDublicates([1,2,3,4,5,2,3]))
