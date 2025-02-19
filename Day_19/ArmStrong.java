@@ -19,7 +19,7 @@ class ArmStrong {
         String str = String.valueOf(num); // Using String.valueOf()  
 // OR  
         String str2 = Integer.toString(num); // Using Integer.toString()  
-        System.out.println(str); // Output: 123  
+        System.out.println(str2); // Output: 123  
 
         num = Integer.parseInt(str); // Using Integer.parseInt()  
         System.out.println(num); // Output: 456  
