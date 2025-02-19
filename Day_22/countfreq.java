@@ -9,6 +9,12 @@ class countfreq{
         for(char ch:str.toCharArray()){
             count.put(ch, count.getOrDefault(ch, 0)+1);
         }
-        System.err.println(count);
+        //System.out.println(count);
+        for(char c:str.toCharArray()){
+            if(count.containsKey(c)){
+                System.err.println(c+" : "+count.get(c));
+                count.remove(c);
+            }
+        }
     }
 }
