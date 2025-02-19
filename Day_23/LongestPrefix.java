@@ -15,7 +15,7 @@ class LongestPrefix{
         System.out.println("Longest Prefix String: "+first.substring(0,i));
     }
     public static void main(String[] args){
-        String[] strs = {"flower", "flow", "flight"};
+        String[] strs = {"flower", "flight","flow"};
         commanprefix(strs);
 
     }
