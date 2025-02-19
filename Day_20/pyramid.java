@@ -15,7 +15,6 @@ class  pyramid{
             for (int j = 0; j <= i; j++) {
                 System.out.print(" ");
             }
-            
             for (int k = 0; k < 2 * rows-(2*i)-1; k++) {
                 System.out.print("*");
             }
