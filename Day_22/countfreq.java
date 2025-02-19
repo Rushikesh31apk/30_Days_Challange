@@ -7,14 +7,8 @@ class countfreq{
         String str="hello";
         HashMap<Character,Integer> count =new LinkedHashMap();
         for(char ch:str.toCharArray()){
-            if(!count.containsKey(ch)){count.put(ch, 1);}
-            else{
-                int cnt=count.get(ch);
-                count.put(ch, cnt+1);
-            }
+            count.put(ch, count.getOrDefault(ch, 0)+1);
         }
         System.err.println(count);
-
-        
     }
 }

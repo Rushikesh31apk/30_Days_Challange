@@ -10,4 +10,5 @@ class freq{
         }
         System.err.println("frequency of each num: "+ cnt);
     }
+
 }

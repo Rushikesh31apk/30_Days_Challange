@@ -9,7 +9,6 @@ class  Dog extends Animal{
     }
     @Override
     void sound(){
-        
         System.err.println("Its override method Dog barks");
     }
 }

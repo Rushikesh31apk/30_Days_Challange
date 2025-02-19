@@ -27,7 +27,7 @@ class Dublicate{
     }
     public static void main(String[] args) {
         int nums[]={1,2,3,4,2,5};
-        int res=isdub1(nums);
+        int res=isdub(nums);
         if( res != -1){
             System.err.println("Dublicate num is: "+res);
         }
