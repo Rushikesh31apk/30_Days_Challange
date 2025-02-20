@@ -5,7 +5,9 @@ class CountOccur{
     public static void main(String[] args) {
         String str="programming";
         HashMap<Character,Integer> count=new LinkedHashMap<>();
-        for(char c:str.toCharArray()) count.put(c, count.getOrDefault(c,0)+1);
+        for(char c:str.toCharArray()) {
+            count.put(c, count.getOrDefault(c,0)+1);
+        }
         System.err.println(count);
 
          for (char c : str.toCharArray()) {

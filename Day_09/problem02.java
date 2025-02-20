@@ -11,7 +11,6 @@ class problem02{
             revWords+=" ";
         }
         System.out.println("before perform any operation each word like: "+str);
-        System.out.println("after perform op each word in reverce postion: "+revWords);
-            
+        System.out.println("after perform op each word in reverce postion: "+revWords);     
     }
 }

@@ -13,6 +13,7 @@ class Car extends Vechicle{
     public String price(){
         return "14.5 lacs!";
     }
+    @Override
     public String wheels(){
         return "Car has 4 wheels and 1 spare";
     }

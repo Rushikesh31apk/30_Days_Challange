@@ -10,7 +10,5 @@ class problem05 {
             first = second;
             second = next;
         }
-
     }
-
 }
