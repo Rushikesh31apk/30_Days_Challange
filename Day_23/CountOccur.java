@@ -11,7 +11,7 @@ class CountOccur{
         System.err.println(count);
 
          for (char c : str.toCharArray()) {
-            //
+            // use to check present or not
             if (count.containsKey(c)) {
                 System.out.println(c + ":" + count.get(c) + " ");
                 count.remove(c); // Ensures each character prints only once
