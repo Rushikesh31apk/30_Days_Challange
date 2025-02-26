@@ -1,7 +1,7 @@
 # 30 Days Challenge
 
 ## Objective
-Solve 150+ DSA problems in 30 days.
+Solve DSA problems in 30 days.
 
 ## Focus Areas
 Cover all major topics in Data Structures and Algorithms, ensuring a mix of easy, medium, and hard problems.
